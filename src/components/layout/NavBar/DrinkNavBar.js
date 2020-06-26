@@ -21,23 +21,13 @@ const DrinkNavBar = () => {
             </Link>
             <Link
               activeClass='active'
-              to='sake'
+              to='sakebeer'
               spy={true}
               smooth={true}
               offset={-60}
               duration={500}
             >
-              <li>Sake</li>
-            </Link>
-            <Link
-              activeClass='active'
-              to='beer'
-              spy={true}
-              smooth={true}
-              offset={-60}
-              duration={500}
-            >
-              <li>Beer</li>
+              <li>Sake & Beer</li>
             </Link>
             <Link
               activeClass='active'
